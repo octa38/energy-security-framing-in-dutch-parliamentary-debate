@@ -1,0 +1,4 @@
+test,variable,group_a,group_b,group_a_mean,group_b_mean,group_a_median,group_b_median,statistic,p_value
+Mann-Whitney U,securitization_index,pre_2022,post_2022,0.24106467472901136,0.5896807398560643,0.0,0.0,7021178.5,5.339732675532007e-36
+Mann-Whitney U,security_density,pre_2022,post_2022,2.1209489270386266,6.942572238805971,0.0,0.0,6964652.5,1.992535391354635e-40
+Mann-Whitney U,energy_security_density_ratio,pre_2022,post_2022,0.3006290016890503,0.4952845284590002,0.0,0.0,7053753.0,1.4654952465346206e-33
