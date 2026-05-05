@@ -1,0 +1,12 @@
+metric,value
+utterances,9102
+sessions,1127
+speakers,337
+parties,1
+first_date,2019-01-15 00:00:00
+last_date,2022-07-12 00:00:00
+mean_word_count,175.66
+median_word_count,84.0
+energy_security_overlap_rate,0.1684
+energy_minerals_overlap_rate,0.0227
+mean_securitization_index,0.3309
