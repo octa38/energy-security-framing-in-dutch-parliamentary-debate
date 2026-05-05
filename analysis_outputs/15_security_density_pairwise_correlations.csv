@@ -1,0 +1,5 @@
+x,y,spearman_r,p_value
+security_density,energy_density,-0.1731711520108942,3.294075988511554e-62
+security_density,economic_density,0.1459148442533804,1.6968896087632313e-44
+security_density,climate_density,0.028398774371566578,0.006737608695678637
+security_density,minerals_density,-0.0028449859007701845,0.786093052516888
