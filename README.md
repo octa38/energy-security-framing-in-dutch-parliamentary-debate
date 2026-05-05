@@ -1,4 +1,4 @@
-# ParlaMint-NL — Energy Security Framing Analysis
+# ParlaMint-NL - Energy Security Framing Analysis
 
 ## Project Overview
 
