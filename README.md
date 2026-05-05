@@ -5,11 +5,9 @@
 This project analyses how energy is framed as a security issue in Dutch parliamentary debates (2019–2022) using the ParlaMint-NL dataset.
 
 The central research question is:
-
  *To what extent has energy policy discourse in the Dutch Parliament become securitized, particularly after the 2022 Russian invasion of Ukraine?*
 
 The project combines:
-
 * data engineering (text processing + enrichment)
 * data visualisation (interactive dashboard)
 * advanced analytics (statistical tests, clustering, trends)
@@ -26,7 +24,6 @@ The project combines:
 ### Substantive scope
 
 The analysis focuses on energy-related discourse, specifically when it intersects with:
-
 * Security
 * Economics
 * Climate
@@ -45,7 +42,6 @@ This project is built on the “Climate, Energy, Materials & Food” pillar.
 This means that energy is not treated purely as a technical or economic issue. Instead, it is analysed as a strategic, geopolitical, and security concern
 
 The framework captures whether energy is framed in terms of:
-
 * vulnerability
 * dependency (e.g. on Russia)
 * resilience
@@ -58,14 +54,12 @@ The framework captures whether energy is framed in terms of:
 ### 1. Data Processing
 
 Script: `process_parlamint.py`
-
 * Text normalization (lowercasing, punctuation removal)
 * Stopword removal and lemmatization
 * Phrase-aware keyword matching
 * Calculation of: keyword counts, density scores (per 1,000 words)
 
 This produces:
-
 ```
 processed/energy_security_utterances.csv
 ```
@@ -77,7 +71,6 @@ processed/energy_security_utterances.csv
 Script: `enrich_speakers.py`
 
 * Extracts speaker metadata from TEI/XML:
-
   * name
   * party
   * gender
@@ -85,7 +78,6 @@ Script: `enrich_speakers.py`
 * Links metadata to utterances
 
 Output:
-
 ```
 processed/energy_security_utterances_enriched.csv
 ```
@@ -95,7 +87,6 @@ processed/energy_security_utterances_enriched.csv
 ### 3. Framing Measurement
 
 Each utterance is scored across five dimensions:
-
 * Energy
 * Security
 * Economic
@@ -103,7 +94,6 @@ Each utterance is scored across five dimensions:
 * Critical Materials
 
 Derived indicators:
-
 * Primary framing
 * Energy–Security overlap
 * Securitization index
@@ -116,7 +106,6 @@ Derived indicators:
 Script: `advanced_analysis_energy_security.py`
 
 Implements:
-
 * Descriptive statistics
 * Frame frequency & co-occurrence
 * Trend analysis (yearly & monthly)
@@ -127,7 +116,6 @@ Implements:
 * Speaker clustering
 
 Outputs:
-
 ```
 analysis_outputs/
 ```
@@ -139,7 +127,6 @@ analysis_outputs/
 App: `app.py`
 
 Interactive Streamlit dashboard featuring:
-
 * framing trends over time
 * securitization indicators
 * actor-level analysis
@@ -151,7 +138,6 @@ Interactive Streamlit dashboard featuring:
 ### 6. Generative AI Component
 
 The dashboard integrates AI to:
-
 * summarise speeches
 * generate structured policy reports
 * infer political orientation from language
@@ -237,10 +223,10 @@ advanced_analysis_energy_security.py → analytics pipeline
 
 ---
 
-## ✅ Conclusion
+##  Conclusion
 
 This project demonstrates that:
 
 > **Energy discourse in Dutch parliament has become increasingly securitized, especially after 2022, reflecting broader geopolitical shifts in Europe.**
 
-It combines quantitative rigor with qualitative interpretation, aligned with HCSS analytical standards.
+It combines quantitative accuracy with qualitative interpretation, aligned with HCSS analytical standards.
